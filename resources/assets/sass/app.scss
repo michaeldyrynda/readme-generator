@@ -1,1 +1,32 @@
+$font-size-base: 12px;
+
 @import 'node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+body {
+    padding: 20px;
+}
+.title {
+    border-top: 3px double #ddd;
+    border-bottom: 3px double #ddd;
+    max-width: 450px;
+    margin: 0 auto 30px;;
+    text-align:center;
+}
+.title h1 {
+    line-height: 18px;
+    margin: 20px 0 10px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.title p {
+    font-family: $font-family-serif;
+    color: #777;
+}
+hr {
+    max-width: 450px;
+}
+svg {
+    margin: 0 auto;
+    display: block;
+}
