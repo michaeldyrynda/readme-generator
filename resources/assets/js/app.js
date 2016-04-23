@@ -57,7 +57,7 @@ new Vue({
             this.copiedMessage = 'Copied!';
         }).on('error', (e) => {
             this.outputCopied = true;
-            this.copiedMessage = 'Press Cmd+C to copy';
+            this.copiedMessage = 'Press Cmd/Ctrl+C to copy';
         });
 
     },
