@@ -5750,31 +5750,36 @@ button.close {
     display: none !important; } }
 
 body {
-  padding: 20px; }
+  background: #f4f4f4; }
 
-.title {
-  border-top: 3px double #ddd;
-  border-bottom: 3px double #ddd;
-  max-width: 450px;
-  margin: 0 auto 30px;
-  text-align: center; }
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #ebebeb;
+  background-color: #fff; }
+  .header h1 {
+    margin: 0;
+    padding: 20px 0;
+    font-family: Georgia; }
 
-.title h1 {
-  line-height: 18px;
-  margin: 20px 0 10px;
-  font-size: 18px;
-  letter-spacing: 2px;
-  text-transform: uppercase; }
+.form-group, #markdown-preview {
+  background: #fff;
+  padding: 20px;
+  border: 1px solid rgba(160, 160, 160, 0.3); }
 
-.title p {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  color: #777; }
-
-hr {
-  max-width: 450px; }
+.help-block {
+  font-style: italic;
+  font-family: Georgia; }
 
 svg {
-  margin: 0 auto;
-  display: block; }
+  width: 100px;
+  height: auto; }
+
+footer {
+  border-top: 1px solid #ebebeb;
+  padding: 40px 0 0;
+  margin: 40px;
+  text-align: center;
+  font-family: Georgia; }
 
 /*# sourceMappingURL=app.css.map */
