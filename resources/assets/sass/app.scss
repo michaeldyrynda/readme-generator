@@ -1,1 +1,38 @@
+$font-size-base: 12px;
+
 @import 'node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+body {
+  background: #f4f4f4;
+}
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #ebebeb;
+  background-color: #fff;
+  h1 {
+    margin: 0;
+    padding: 20px 0;
+    font-family: Georgia;
+  }
+}
+.form-group, #markdown-preview {
+  background: #fff;
+  padding: 20px;
+  border: 1px solid rgba(160, 160, 160, 0.3);
+}
+.help-block {
+  font-style: italic;
+  font-family: Georgia;
+}
+svg {
+  width: 100px;
+  height: auto;
+}
+footer {
+  border-top: 1px solid #ebebeb;
+  padding: 40px 0 0;
+  margin: 40px;
+  text-align: center;
+  font-family: Georgia;
+}
