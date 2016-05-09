@@ -1,8 +1,8 @@
 # Readme generator
 
-## Introduction
-
 ![Readme generator screenshot](readme-generator-screenshot.png)
+
+## Introduction
 
 Developers love to share code in the form of packages, full apps, or tiny modules. Sharing is great, but one area that a lot of developers forget about is the readme file. This file is now arguably one of the most important pieces for your project and one that a lot of users don’t spend any time on.
 
