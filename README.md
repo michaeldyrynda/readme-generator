@@ -20,4 +20,5 @@ This [simple application](https://michaeldyrynda.github.io/readme-generator) ass
 
 ## Learn more
 
-Check out [Eric L Barnes'](https://twitter.com/ericlbarnes) article on [how to write a README that rocks](https://dotdev.co/how-to-write-a-readme-that-rocks-bc29f279611a) for the inspiration behind this generator.
+* Check out [Eric L Barnes'](https://twitter.com/ericlbarnes) article on [how to write a README that rocks](https://dotdev.co/how-to-write-a-readme-that-rocks-bc29f279611a) for the inspiration behind this generator.
+* I published [Building a README generator with Vue.js](https://dotdev.co/building-a-readme-generator-with-vue-js-b653cd1638d8) on .dev, which talks about how this application was built.
